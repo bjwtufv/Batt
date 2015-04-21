@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>main page</title>
+    <link href="Css/css/bootstrap.css" rel="stylesheet" />
+    <!--<link href="Css/bootstrap.css" rel="stylesheet" />-->
+    <!--<link href="Css/bootstrap.min.css" rel="stylesheet" />-->
+
+    <link href="Css/localStyles.css" rel="stylesheet" />
+</head>
+
+
+<body ng-app="userApp">
+    <div class="col-lg-10 col-lg-offset-1">
+        <div ng-include="'header.html'"></div>
+        <div ui-view=""></div>
+        <div ng-include="footer.html"></div>
+    </div>
+        
+        
+   
+</body>
+<!--<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular-resource.min.js"></script>-->
+<script src="/Jscript/angular.js"></script>
+<script src="/Jscript/angular-resource.js"></script>
+<script src="/Jscript/angular-ui-router.min.js"></script>
+<script src="/Jscript/app.js"></script>
+</html>
